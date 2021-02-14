@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "provincias",
+  "info": {
+    "name": "provincias"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+     "populateCreatorFields":true
+  },
+  "attributes": {
+    "provincia": {
+      "type": "string"
+    }
+  }
+}
